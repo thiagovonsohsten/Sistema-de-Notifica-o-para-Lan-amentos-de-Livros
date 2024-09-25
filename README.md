@@ -14,3 +14,11 @@ Este sistema utiliza RabbitMQ para enviar e receber notificações sobre lançam
 4. **Biblioteca `pika`** no Python para conexão com RabbitMQ:
    ```bash
    pip install pika
+## Configuração
+
+### 1. Iniciar o RabbitMQ
+
+No Ubuntu, inicie o serviço RabbitMQ com o seguinte comando:
+
+```bash
+sudo systemctl start rabbitmq-server
